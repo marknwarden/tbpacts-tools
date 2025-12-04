@@ -21,10 +21,9 @@ This repo aims to:
 
 ## Repo structure
 
-- `src/` – Reusable source code (e.g., TTCC, TTP slopes, dataset derivation).
-- `scripts/` – Example scripts showing how to use `src/` functions in end-to-end workflows.
-- `vignettes/` – Quarto/R Markdown documents demonstrating structured analyses using synthetic data.
-- `inst/extdata/synthetic/` – Small synthetic example datasets for demonstration only.
+- `R/` – Reusable source code (e.g. functions routinely used, TTCC, TTP slopes, dataset derivation).
+- `scripts/` – Example scripts showing how to use `R/` functions in demonstration and end-to-end workflows.
+- `vignettes/` – Quarto/R Markdown documents demonstrating structured analyses the SimpliciTB trial as an example (TB-1037) **assumes data access already obtained**
 - `metadata/` – Trial-level metadata (e.g., Excel catalogue of trials, links to protocols and publications).
 - `docs/` – Additional documentation on TB-PACTS structure and endpoint definitions.
 - `config/` – Template configuration files (e.g., example paths) for users to adapt locally.
